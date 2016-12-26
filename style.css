@@ -1,0 +1,89 @@
+body { 
+	font-family: 'Raleway', sans-serif;
+	/*font-family: futura-pt, sans-serif;*/
+	font-style: normal;
+    -webkit-font-smoothing: subpixel-antialiased;
+    margin:0px;
+    padding:0px;
+
+}
+div.content-panel {
+	padding:100px 600px 100px 100px;
+	clear:both;
+}
+div#home {
+	color:#fff;
+	text-align:left;
+	background:url('images/home-bg.png') no-repeat center center fixed;
+	background-size:cover;
+}
+a:link, a:visited {
+	text-decoration:none;
+}
+div#home ul.nav {
+	margin-left:100px;
+	list-style-type:none;
+	margin-top:40px;
+}
+h1 {
+	font-size:4rem;
+	margin-bottom:1rem;
+	letter-spacing: 0px !important;
+	margin:0px;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight:200;
+}
+p {
+	line-height:2rem;
+}
+div#story {
+	font-weight: 500;
+    /*text-shadow: 0px 3px 3px #000;*/
+}
+h1.center {text-align:center;}
+h1.primary {
+
+}
+#home h2 {
+	font-family: "Raleway";
+    letter-spacing: 6px !important;
+    font-size: 1.5rem;
+    margin: 0px;
+    font-weight: 100;
+    text-shadow: 0px 3px 3px #000;
+	text-transform: uppercase;
+}
+
+#home h1, #home h2 { 
+	margin-left:100px;
+}
+div.center {
+	vertical-align:center;
+	padding:200px 0px 600px 0px;
+	width:100%;
+}
+
+div.gallery img {
+	width:350px;
+	float:left;
+	margin-bottom:100px;
+}
+div.gallery img:not(last-child) {
+	margin-right:20px;
+}
+img.bordered {
+	border:8px solid #fff;
+	box-shadow:0px 2px 12px -4px #000000;
+}
+
+/* wedding page */
+div#wedding {
+	background-color:#8bd2d3;
+}
+div#wedding img {
+	width:100%;
+}
+div#wedding h1 { margin-bottom:40px; color:#fff; text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.21); }
+div.col {
+	float:left;
+}
