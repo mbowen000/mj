@@ -8,8 +8,14 @@ body {
 
 }
 div.content-panel {
-	padding:100px 600px 100px 100px;
+	padding:40px;
 	clear:both;
+}
+@media only screen 
+  and (min-device-width: 1024px) {
+	  div.content-panel {
+		  padding:100px 400px 100px 100px;
+	  }
 }
 div#home {
 	color:#fff;
