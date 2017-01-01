@@ -1,0 +1,21 @@
+{
+  "name": "mj",
+  "description": "MJ Wedding Site",
+  "main": "index.js",
+  "authors": [
+    "Mike Bowen"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mbowen000/mj",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lightbox2": "^2.9.0"
+  }
+}
