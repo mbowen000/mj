@@ -14,7 +14,7 @@ div.content-panel {
 @media only screen 
   and (min-device-width: 1024px) {
 	  div.content-panel {
-		  padding:100px 400px 100px 100px;
+		  padding:100px;
 	  }
 }
 div#home {
@@ -68,14 +68,17 @@ div.center {
 	padding:200px 0px 600px 0px;
 	width:100%;
 }
-
-div.gallery img {
+div.gallery {}
+div.gallery a {
 	width:350px;
 	float:left;
-	margin-bottom:100px;
+	display:block;
 }
-div.gallery img:not(last-child) {
-	margin-right:20px;
+div.gallery.row {
+	margin-bottom:20px;
+}
+div.gallery img {
+	width:100%;
 }
 .bordered {
 	border:8px solid #fff;
